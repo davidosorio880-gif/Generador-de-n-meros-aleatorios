@@ -16,9 +16,9 @@ with contendedor:
     columna1,columna2=st.columns(2)
     
     with columna1:
-        minimo=st.number_input('Mínimo: ')
+        minimo=int(st.number_input('Mínimo: '))
     with columna2:
-        maximo=st.number_input('Máximo: ')
+        maximo=int(st.number_input('Máximo: '))
 
     columna_iz,columna_boton,columna_der=st.columns([2,1,2])
     
